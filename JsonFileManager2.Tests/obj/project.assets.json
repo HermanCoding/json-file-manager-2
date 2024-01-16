@@ -307,15 +307,15 @@
           "build/netcoreapp3.1/Microsoft.TestPlatform.TestHost.props": {}
         }
       },
-      "Newtonsoft.Json/13.0.1": {
+      "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -467,6 +467,19 @@
         },
         "build": {
           "build/net6.0/xunit.runner.visualstudio.props": {}
+        }
+      },
+      "JsonFileManager2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/JsonFileManager2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JsonFileManager2.dll": {}
         }
       }
     }
@@ -814,14 +827,15 @@
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
-    "Newtonsoft.Json/13.0.1": {
-      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
-      "path": "newtonsoft.json/13.0.1",
+      "path": "newtonsoft.json/13.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
+        "README.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -830,13 +844,15 @@
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
         "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
@@ -1090,12 +1106,19 @@
         "xunit.runner.visualstudio.2.5.6.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "JsonFileManager2/1.0.0": {
+      "type": "project",
+      "path": "../JsonFileManager2/JsonFileManager2.csproj",
+      "msbuildProject": "../JsonFileManager2/JsonFileManager2.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "FluentAssertions >= 6.12.0",
+      "JsonFileManager2 >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
+      "Newtonsoft.Json >= 13.0.3",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.6.6",
       "xunit.runner.visualstudio >= 2.5.6"
@@ -1132,7 +1155,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dherm\\source\\repos\\JsonFileManager2\\JsonFileManager2\\JsonFileManager2.csproj": {
+              "projectPath": "C:\\Users\\dherm\\source\\repos\\JsonFileManager2\\JsonFileManager2\\JsonFileManager2.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1152,6 +1179,10 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.8.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

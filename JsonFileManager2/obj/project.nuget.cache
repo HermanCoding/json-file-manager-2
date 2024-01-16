@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "a00lOFfUxD50ZcPFuC57NEq6Ia/GiQgWEuKWyHtxoZjqgBZKiH8kBL2d8vU//PO57yBqa266p6BGVbF98nNFVQ==",
+  "dgSpecHash": "hpCJw/El8sFNcz+koGrcFmNtAKMVwSLoWixXpg/mcKvDi0VAGRJROgYBlDnD5/wLY3ZuRLldHGj6dx9f6Sn4IQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\dherm\\source\\repos\\JsonFileManager2\\JsonFileManager2\\JsonFileManager2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dherm\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

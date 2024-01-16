@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oeq7UnsUMVqv3u1qStjdQBjL3eZ49hlQlOQdyUVzgZlPMjxHtcc1zjc6GYanRvk026+pInEWWDiC/a6rk5oHHw==",
+  "dgSpecHash": "TTJdc1jkuTqx4qFJAnzvac2hX+/NxVjV/QKH4n5QLtpylMzNs+w+yZvWAbrqflswW+UrUzt77V1u2A1T3962Bg==",
   "success": true,
   "projectFilePath": "C:\\Users\\dherm\\source\\repos\\JsonFileManager2\\JsonFileManager2.Tests\\JsonFileManager2.Tests.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,7 @@
     "C:\\Users\\dherm\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "C:\\Users\\dherm\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.8.0\\microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",
     "C:\\Users\\dherm\\.nuget\\packages\\microsoft.testplatform.testhost\\17.8.0\\microsoft.testplatform.testhost.17.8.0.nupkg.sha512",
-    "C:\\Users\\dherm\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\dherm\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\dherm\\.nuget\\packages\\nuget.frameworks\\6.5.0\\nuget.frameworks.6.5.0.nupkg.sha512",
     "C:\\Users\\dherm\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
     "C:\\Users\\dherm\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
